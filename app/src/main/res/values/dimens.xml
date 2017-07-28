@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="margin2">8dp</dimen>
+    <dimen name="separatorThickness">1dp</dimen>
+    <dimen name="previewImage">45dp</dimen>
+    <dimen name="nameSize">20sp</dimen>
+    <dimen name="priceSize">30sp</dimen>
+    <dimen name="emptyViewSize">18sp</dimen>
+</resources>

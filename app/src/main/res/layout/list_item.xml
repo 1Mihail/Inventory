@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/listItemContainer">
+
+    <ImageView
+        android:id="@+id/itemImage"
+        style="@style/listItemImage"
+        tools:src="@mipmap/ic_launcher" />
+
+    <LinearLayout style="@style/listItemMiddle">
+
+        <TextView
+            android:id="@+id/itemName"
+            style="@style/listItemName"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/itemStock"
+            style="@style/listItemStock"
+            tools:text="In stock" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/sale"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/ic_sale" />
+
+    <TextView
+        android:id="@+id/itemPrice"
+        style="@style/listItemPrice"
+        tools:text="13 eur" />
+</LinearLayout>

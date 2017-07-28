@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/detailContainer"
+    tools:context="com.mihailproductions.inventory.DetailActivity">
+
+    <LinearLayout style="@style/detailTitleContainer">
+
+        <TextView
+            style="@style/itemTitle"
+            android:text="@string/product_name" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            style="@style/itemInput"
+            android:inputType="textCapSentences" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/detailTitleContainer">
+
+        <TextView
+            style="@style/itemTitle"
+            android:text="@string/product_price" />
+
+        <EditText
+            android:id="@+id/edit_price"
+            style="@style/itemInput"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/detailTitleContainer">
+
+        <TextView
+            style="@style/itemTitle"
+            android:text="@string/product_quantity" />
+
+        <Button
+            android:id="@+id/decreaseQuantity"
+            style="@style/quantityButton"
+            android:text="@string/product_quantity_minus" />
+
+        <EditText
+            android:id="@+id/edit_quantity"
+            style="@style/itemInput"
+            android:layout_marginLeft="@dimen/margin2"
+            android:layout_marginRight="@dimen/margin2"
+            android:inputType="number"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/increaseQuantity"
+            style="@style/quantityButton"
+            android:text="@string/product_quantity_plus" />
+    </LinearLayout>
+
+    <View style="@style/separator" />
+
+    <LinearLayout style="@style/detailTitleContainer">
+
+        <TextView
+            style="@style/itemTitle"
+            android:text="@string/product_supplier_name" />
+
+        <EditText
+            android:id="@+id/editSupplierName"
+            style="@style/itemInput"
+            android:inputType="textCapWords" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/detailTitleContainer">
+
+        <TextView
+            style="@style/itemTitle"
+            android:text="@string/product_supplier_email" />
+
+        <EditText
+            android:id="@+id/editSuplierEmail"
+            style="@style/itemInput"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+    <View style="@style/separator" />
+
+    <LinearLayout style="@style/detailTitleContainer">
+
+        <TextView
+            style="@style/itemTitle"
+            android:text="@string/product_image" />
+
+        <ImageView
+            android:id="@+id/itemImage"
+            style="@style/previewImage"
+            tools:src="@mipmap/ic_launcher" />
+
+        <Button
+            android:id="@+id/addImage"
+            style="@style/itemAddImageButton" />
+    </LinearLayout>
+</LinearLayout>

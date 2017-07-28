@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="empty_view">No entries! \nTo add a new product, please press the plus button. \nBe aware that all fields are required.</string>
+    <string name="add_item_button_text">+</string>
+    <string name="product_name">Product name:</string>
+    <string name="product_price">Product price:</string>
+    <string name="product_quantity">Quantity:</string>
+    <string name="product_supplier_name">Supplier name:</string>
+    <string name="product_supplier_email">Supplier email:</string>
+    <string name="product_quantity_minus">-</string>
+    <string name="product_quantity_plus">+</string>
+    <string name="product_image">Image:</string>
+    <string name="add_image">Add image</string>
+    <string name="detail_activity_title_new_item">Add new item</string>
+    <string name="detail_activity_title_edit_item">Edit item</string>
+    <string name="editor_insert_item_failed">Insert Succesful!</string>
+    <string name="editor_insert_item_successful">insert Error!</string>
+    <string name="editor_update_item_failed">Update failes!</string>
+    <string name="editor_update_item_successful">Update complete!</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="delete_dialog_msg">Are you sure you want to delete?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_item_failed">Deletion failed!</string>
+    <string name="editor_delete_item_successful">Deletion succesful!</string>
+    <string name="unsaved_changes_dialog_msg">There are unsaved changes!</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep editing!</string>
+    <string name="product_out_of_stock">There are no more products!</string>
+
+    <string name="name_required">Name required</string>
+    <string name="quantity_required">Quantity required</string>
+    <string name="price_required">Price required</string>
+    <string name="supplier_name_required">Supplier name required</string>
+    <string name="supplier_email_required">Supplier email required</string>
+    <string name="image_required">Image required</string>
+</resources>
